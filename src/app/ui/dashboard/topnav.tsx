@@ -7,7 +7,7 @@ import Logo from './PieceLogo.png'
 export default function TopNav() {
     return (
         
-        <div className="hidden h-full w-full grow rounded-md bg-gray-50 md:block "> 
+        <div className="hidden h-full w-full grow rounded-3xl bg-gray-50 md:block "> 
             <div className="flex h-full flex-col px-3 py-4 md:px-2">
                 <div className="flex items-center">
                     <Link href="/">
