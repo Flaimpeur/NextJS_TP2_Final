@@ -2,8 +2,8 @@ import TopNav from '@/app/ui/dashboard/topnav';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
-        <div className='flex justify-center items-center h-screen bg-center'>
-            <div className="border rounded-3xl shadow-lg w-full max-w-lg  bg-gray-200">
+        <div className='flex justify-center items-center min-h-screen bg-center'>
+            <div className="border rounded-3xl shadow-lg w-full max-w-6xl bg-gray-200">
                 <div className=''>
                     <div>
                         <TopNav />
