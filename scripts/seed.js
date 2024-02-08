@@ -10,9 +10,9 @@ async function seedWallet(client) {
     // Create the "wallets" table if it doesn't exist
     const createTable = await client.sql`
       CREATE TABLE IF NOT EXISTS wallets (
-        id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
-        amountPri NUMERIC(10,2) NOT NULL,
-        savingAmount NUMERIC(10,2) NOT NULL
+        id UUID DEFAULT PRIMARY KEY,
+        amountPri NUMERIC(10, 2) NOT NULL,
+        savingAmount NUMERIC(10, 2) NOT NULL
       );
     `;
 
