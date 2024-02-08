@@ -3,6 +3,7 @@ import { lusitana } from '@/app/ui/fonts';
 import Profits from '@/app/ui/dashboard/profits';
 import Overview from '@/app/ui/dashboard/overview';
 import Benefits from '@/app/ui/dashboard/benefits';
+import SavingAccount from '@/app/ui/dashboard/savingaccount';
 
 export default function HomePage() {
     return (
@@ -14,9 +15,8 @@ export default function HomePage() {
         </div>
         <br/>
         <div className='grid gap-6 sm:grid-cols-2 '>
-          <div className="col-start-2">
+            <SavingAccount/>
             <Benefits/>
-          </div>
         </div>
       </main>
     )

@@ -12,7 +12,6 @@ export async function fetchWallet() {
     const data = await sql<Wallet>`SELECT * FROM wallets`;
 
     console.log('Data fetch completed after 2 seconds.');
-    console.log(data.rows);
     
     return data.rows;
   } catch (error) {
