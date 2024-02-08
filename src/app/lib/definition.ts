@@ -1,5 +1,5 @@
 export type Wallet = {
     id: string;
-    amountPri: number;
-    savingAmount: number;
+    amountpri: number;
+    savingamount: number;
 }
